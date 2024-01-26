@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Restaurant</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Digital Restaurant</h1>
+            <p>Welcome to our website!</p>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="container">
+            <h2>Today's Special Offers:</h2>
+            <div class="feature">
+                <img src="food.jpg" alt="Feature 1">
+                <h3>Offer 1: Pizza</h3>
+                <p>Meat Lover's Feast
+                    <div>
+                        Meat Lover's Pizza
+                        Mozzarella Sticks
+                        2 Draft Beers
+                        Only $18.99</p>
+                    </div>
+                <button class="order-button">Order Now</button>
+            </div>
+            <div class="feature">
+                <img src="food1.jpg" alt="Feature 2">
+                <h3>Offer 2: Burger</h3>
+                <p>Classic Combo Delight
+                    <div>
+                        Classic Beef Burger
+                        Crispy Fries
+                        Chilled Soft Drink
+                        Only $9.99</p>
+                    </div>
+                <button class="order-button">Order Now</button>
+            </div>
+            <div class="feature">
+                <img src="food3.jpg" alt="Feature 3">
+                <h3>Offer 3: Donuts</h3>
+                <p>Chocolate Lover's Dream
+                    <div>
+                        Chocolate Frosted Donuts
+                        Chocolate Milkshake
+                        Only $10.99</p>
+                    </div>
+                <button class="order-button">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest news and offers!</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="subscribe-button">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Digital Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js">
+        // Simple button animation
+const orderButtons = document.querySelectorAll('.order-button');
+orderButtons.forEach(button => {
+    button.addEventListener('mouseenter', () => {
+        button.style.transform = 'scale(1.1)';
+    });
+
+    button.addEventListener('mouseleave', () => {
+        button.style.transform = 'scale(1)';
+    });
+});
+
+    </script>
+</body>
+
+</html>
