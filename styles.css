@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+#features {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.feature h3 {
+    color: #ff6347;
+    font-size: 1.5em;
+}
+
+.feature p {
+    font-size: 1.2em;
+}
+
+.order-button, .subscribe-button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.order-button:hover, .subscribe-button:hover {
+    background-color: #ff4500;
+}
+
+#cta {
+    background-color: #3498db;
+    color: #fff;
+    padding: 40px 0;
+}
+
+cta h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+cta p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+}
+
+form button {
+    font-size: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .feature {
+        padding: 15px;
+    }
+
+    .feature img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature h3 {
+        font-size: 1.2em;
+    }
+
+    .feature p {
+        font-size: 1em;
+    }
+
+    .order-button, .subscribe-button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+
+    cta h2 {
+        font-size: 1.5em;
+    }
+
+    cta p {
+        font-size: 1em;
+    }
+
+    form input {
+        padding: 8px;
+        width: 100%;
+    }
+
+    form button {
+        padding: 8px 15px;
+        font-size: 1em;
+    }
+}
