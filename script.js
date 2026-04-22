@@ -9,6 +9,3 @@ orderButtons.forEach(button => {
         button.style.transform = 'scale(1)';
     });
 });
-
-
-
