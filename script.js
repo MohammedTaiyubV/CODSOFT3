@@ -10,5 +10,3 @@ orderButtons.forEach(button => {
     });
 
 });
-
-
